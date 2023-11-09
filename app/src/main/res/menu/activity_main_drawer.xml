@@ -6,15 +6,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
             android:title="Inicio" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
             android:title="Productos" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@android:drawable/btn_dialog"
             android:title="Buscar Productos" />
         <item
             android:layout_width="wrap_content"
@@ -25,8 +22,9 @@
             android:layout_height="wrap_content"
             android:title="Nuestras Sucursales" />
         <item
+            android:id="@+id/sobre_Nosotros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:title="Sobre Nosotros" />
+            android:title="Sobre nosotros" />
     </group>
 </menu>

@@ -22,4 +22,9 @@
         android:name="com.example.prueba_moviles.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/sobre_Nosotros"
+        android:name="com.example.prueba_moviles.Sobre_Nosotros"
+        android:label="fragment_sobre__nosotros"
+        tools:layout="@layout/fragment_sobre__nosotros" />
 </navigation>
